@@ -2,4 +2,14 @@
 <resources>
 
     <style name="Theme.StockMarketApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/black</item>
+        >
+        <item name="postSplashScreenTheme">@style/Theme.StockMarketApp</item>
+    </style>
+
 </resources>
